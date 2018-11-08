@@ -1,5 +1,5 @@
 // Show the picture trials first (though we generate them second)
-var shuffleSequence = seq(randomize("picture"), randomize("rating"));
+PennController.Sequence( randomize("picture") , randomize("rating") );
 PennController.ResetPrefix(null);
 // We don't give the full URL in the spreadsheet
 PennController.AddHost("http://files.lab.florianschwarz.net/ibexfiles/PennController/SampleTrials/");
