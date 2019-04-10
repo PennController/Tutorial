@@ -1,5 +1,4 @@
 PennController.ResetPrefix(null);
-PennController.AddHost("http://files.lab.florianschwarz.net/ibexfiles/PennController/SampleTrials/");
 
 // Picture selection trial
 PennController(
